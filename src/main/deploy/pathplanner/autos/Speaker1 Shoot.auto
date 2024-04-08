@@ -1,0 +1,31 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.7053909351121053,
+      "y": 6.839866315047626
+    },
+    "rotation": -119.83110512878666
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlignAndScore"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Speaker1 Shoot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

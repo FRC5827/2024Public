@@ -1,0 +1,31 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.75,
+      "y": 4.43
+    },
+    "rotation": 119.93
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoFire"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Speaker3 to Sabotage(SOURCE 3, START MID)"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.5109562542799225,
+      "y": 7.202037892320727
+    },
+    "rotation": 0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AmpScore Start To Amp"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlignAndScore"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AmpScore Amp to Amp"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

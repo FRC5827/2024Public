@@ -1,0 +1,31 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.8112329977987371,
+      "y": 6.767024288263306
+    },
+    "rotation": -118.53998518795999
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlignAndScore"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Speaker1 To Stage"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
